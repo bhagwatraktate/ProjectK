@@ -4,7 +4,7 @@ import boto3
 def lamda_handler(event, context):
   client = boto3.client('ec2')
   response = client.run_instance(
-    ImageId='',
+    ImageId='XYZ',
     InstanceType='',
     KeyName='',
     MaxCount=1,
