@@ -6,7 +6,7 @@ def lamda_handler(event, context):
   response = client.run_instance(
     ImageId='XYZ',
     InstanceType='',
-    KeyName='ap-mum-key',
+    KeyName='aws',
     MaxCount=1,
     MinCount=1
   )
